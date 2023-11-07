@@ -1,0 +1,14 @@
+{
+    "name": "bookmark manager",
+    "description": "",
+    "version": "0.0.1",
+    "manifest_version": 3,
+    "permissions": [
+        "activeTab",
+        "bookmarks",
+        "tabs"
+    ],
+    "chrome_url_overrides": {
+        "bookmarks": "bm_prompt.html"
+    }
+}
